@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<modules>
+  <module moduleId="org.eclipse.jst.jee.server:2DemoJsp" serverId="apache-tomcat-9.0.55 at localhost"/>
+  <module moduleId="org.eclipse.jst.jee.server:10DemoSQL2" serverId="apache-tomcat-9.0.55 at localhost"/>
+  <module moduleId="org.eclipse.jst.jee.server:9DemoSQL" serverId="apache-tomcat-9.0.55 at localhost"/>
+  <module moduleId="org.eclipse.jst.jee.server:HelloWorld" serverId="apache-tomcat-9.0.55 at localhost"/>
+  <module moduleId="org.eclipse.jst.jee.server:12DemoDropDown" serverId="apache-tomcat-9.0.55 at localhost"/>
+  <module moduleId="org.eclipse.jst.jee.server:1DemoDisplay" serverId="apache-tomcat-9.0.55 at localhost"/>
+  <module moduleId="org.eclipse.jst.jee.server:5JspInclude" serverId="apache-tomcat-9.0.55 at localhost"/>
+  <module moduleId="org.eclipse.jst.jee.server:11DemoSQL3" serverId="apache-tomcat-9.0.55 at localhost"/>
+  <module moduleId="org.eclipse.jst.jee.server:4DemoJsp3" serverId="apache-tomcat-9.0.55 at localhost"/>
+  <module moduleId="org.eclipse.jst.jee.server:6DemoMVC" serverId="apache-tomcat-9.0.55 at localhost"/>
+  <module moduleId="org.eclipse.jst.jee.server:3DemoJsp2" serverId="apache-tomcat-9.0.55 at localhost"/>
+  <module moduleId="org.eclipse.jst.jee.server:Helloworld2" serverId="apache-tomcat-9.0.55 at localhost"/>
+  <module moduleId="org.eclipse.jst.jee.server:7DemoMVC2" serverId="apache-tomcat-9.0.55 at localhost"/>
+  <module moduleId="org.eclipse.jst.jee.server:8DemoSession" serverId="apache-tomcat-9.0.55 at localhost"/>
+</modules>

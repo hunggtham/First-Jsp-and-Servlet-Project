@@ -1,0 +1,29 @@
+package db;
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.SQLException;
+
+public class DBConnection {
+	public static Connection CreateConnection() {
+		Connection conn = null;
+		String username = "root";
+		String password = "Hieu@123";
+		String url = "jdbc:mysql://127.0.0.2:3306/demosql";
+		try {
+			//load driver
+			Class.forName("com.mysql.jdbc.Driver");
+			
+			conn = DriverManager.getConnection(url,username,password);
+			
+		} catch (ClassNotFoundException e) {
+			e.printStackTrace();
+		}catch(SQLException se) {
+			se.printStackTrace();
+		}catch(Exception e) {
+			e.printStackTrace();
+		}
+		
+		return conn;
+	}
+}

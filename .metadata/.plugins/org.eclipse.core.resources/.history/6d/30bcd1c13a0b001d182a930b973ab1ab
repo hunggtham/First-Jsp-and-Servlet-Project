@@ -1,0 +1,17 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Home page</title>
+</head>
+<body>
+	<jsp:include page="Header.jsp"></jsp:include>
+	<div style = "float:left; padding: 10px;width: 80%; border-left:1px solid pink">
+		<h1>Test JSP include page</h1>
+		<br>
+		<h5> <a href = "Detail.jsp">Detail</a></h5>
+		</div>
+</body>
+</html>

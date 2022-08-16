@@ -1,0 +1,6 @@
+1660574602597	Rename type 'HomeController'
+1660575355415	Encapsulate field 'studentid'
+1660575367788	Encapsulate field 'studentName'
+1660575387082	Encapsulate field 'provinceid'
+1660575463766	Encapsulate field 'provinceName'
+1660575466904	Encapsulate field 'provinceId'

@@ -1,0 +1,26 @@
+package dao;
+
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.SQLException;
+
+public class RegisterDAO {
+
+	public static void InsertAccount(Connection conn) {
+		PreparedStatement ptmt = null;
+		String sql = "insert into account(uname,pass) values (?,?);";
+		
+		try {
+			ptmt = conn.prepareStatement(sql);
+			
+		} catch (SQLException e) {
+			
+			e.printStackTrace();
+		}catch(Exception e) {
+			e.printStackTrace();
+		}
+		
+		
+		
+	}
+}

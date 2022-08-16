@@ -1,0 +1,12 @@
+package mypack;
+
+import java.util.*;
+
+public class Bean {
+	public static List ExportUsers() {
+		
+		
+	}
+	
+	
+}

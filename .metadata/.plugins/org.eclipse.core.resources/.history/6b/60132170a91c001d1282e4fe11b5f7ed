@@ -1,0 +1,25 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+	pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Home Page</title>
+</head>
+<body>
+	<h3>Student Form</h3>
+	Student Name:
+	<input type="text" name="uname">
+	<br>
+	<br> Province:
+	<select>
+		<option value="vol">Volvo</option>
+		<option value="huyndai">hyundai</option>
+		<option value="vinfast">Vinfast</option>
+		<option value="BMW">BMW</option>
+	</select>
+	<br>
+	<br>
+	<input type = "submit" value = "Register!" />
+</body>
+</html>

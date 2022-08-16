@@ -1,0 +1,17 @@
+package dao;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import bean.Province;
+
+public class HomeDAO {
+	
+	public static List<Province> DisplayProvince(){
+		
+		List<Province> list = new ArrayList<Province>();
+		
+		return list;
+		
+	}
+}

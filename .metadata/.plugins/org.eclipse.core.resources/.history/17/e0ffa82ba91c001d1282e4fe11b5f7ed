@@ -1,0 +1,19 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Home Page</title>
+</head>
+<body>
+	<h3>Province Option</h3>
+	<input type = "text" name = "uname" >
+	<select>
+		<option value = "vol"> Volvo</option>
+		<option value = "huyndai">hyundai</option>
+		<option value = "vinfast">Vinfast</option>
+		<option value = "BMW">BMW</option>	
+	</select>
+</body>
+</html>

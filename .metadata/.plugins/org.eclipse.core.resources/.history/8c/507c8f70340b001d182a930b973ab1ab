@@ -1,0 +1,27 @@
+package mypack;
+
+import java.util.*;
+
+public class DAO {
+	
+	public static List<Users> ExportUsers(){
+		
+		List<Users> list = new ArrayList<Users>();
+		
+		list.add(new Users("Hieu", "Teacher"));
+		list.add(new Users("Minh", "student"));
+		list.add(new Users("tham", "web"));
+		
+		return list;
+	}
+public static List<Student> ExportStudent(){
+		
+		List<Student> list = new ArrayList<Student>();
+		
+		list.add(new Student("Hieu", 1));
+		list.add(new Student("Minh", 2));
+		list.add(new Student("tham", 3));
+		
+		return list;
+	}
+}

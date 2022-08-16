@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>First Page</title>
+</head>
+<body>
+	<form action= "Example" method ="POST">
+		<input type = "text" name = "username"/>
+		<input type = "submit" value = "display">
+	
+	</form>
+</body>
+</html>

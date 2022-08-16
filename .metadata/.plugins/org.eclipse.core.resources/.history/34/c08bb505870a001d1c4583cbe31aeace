@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>DemoHTML</title>
+</head>
+<body>
+	<!-- action will run into <sevlet mapping> in web.xml -> <sevlet> -->
+	<!-- 
+	<form action="callSevlet" method="POST">
+
+		<input type="submit" value="output infomation" />
+
+	</form> -->
+	
+	 <form action="callSevlet" method="POST">
+		<input type = "text" name = "username"/>
+
+		<input type="submit" value="output infomation" />
+
+	</form>
+	 
+</body>
+</html>

@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>DemoHTML</title>
+</head>
+<body>
+
+	<form action="" method = "">
+		<input type = "submit" value = "output infomation/>
+		
+	</form>
+</body>
+</html>

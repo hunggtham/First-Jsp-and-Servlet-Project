@@ -1,0 +1,28 @@
+package bean;
+
+public class Student {
+	private int studentId;
+	private String studentName;
+	private int provinceId;
+	
+	public int getStudentid() {
+		return studentId;
+	}
+	public void setStudentid(int studentid) {
+		this.studentId = studentid;
+	}
+	public String getStudentName() {
+		return studentName;
+	}
+	public void setStudentName(String studentName) {
+		this.studentName = studentName;
+	}
+	public int getProvinceid() {
+		return provinceId;
+	}
+	public void setProvinceid(int provinceid) {
+		this.provinceId = provinceid;
+	}
+	
+	
+}

@@ -1,0 +1,30 @@
+package dao;
+
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.SQLException;
+import java.util.List;
+
+import bean.Account;
+
+public class HomeDAO {
+
+	public static List<Account> DisplayAccount(Connection conn, Account account) {
+		PreparedStatement ptmt = null;
+		String sql = "select * from account";
+		
+		try {
+			
+			ptmt.close();
+			
+		} catch (SQLException e) {
+			
+			e.printStackTrace();
+		}catch(Exception e) {
+			e.printStackTrace();
+		}
+		
+		return false;
+		
+	}
+}
